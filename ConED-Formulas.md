@@ -1,6 +1,6 @@
 Long Description Duplicate (Column E, row 2):
 -------------
-`=IF(ISBLANK(A2),"",IF(D2=D1,"<"&LEFT(A2,2)&"><offering aid:pstyle="times">"&S2&", "&T2&", "&U2&", "&K2&"" &CHAR(13)&IF(OR(L2="Lower Level",L2="Webinar"),L2,"RM "&L2)&", "&M2&", "&N2&CHAR(13)&"<fees aid:pstyle="fees">Fees: Course: "&IF(OR(O2="FREE",O2="Waived"),O2,DOLLAR(O2,0))&""&V2&"</fees></offering></"&LEFT(A2,2)&">",""))`
+`=IF(ISBLANK(A2),"",IF(D2=D1,"<"&LEFT(A2,2)&"><offering aid:pstyle=""times"">"&S2&", "&T2&", "&U2&", "&K2&"" &CHAR(13)&IF(OR(L2="Lower Level",L2="Webinar"),L2,"RM "&L2)&", "&M2&", "&N2&CHAR(13)&"<fees aid:pstyle=""fees"">Fees: Course: "&IF(OR(O2="FREE",O2="Waived"),O2,DOLLAR(O2,0))&""&V2&"</fees></offering></"&LEFT(A2,2)&">",""))`
 
 Days of the Week (Column S, row 1):
 -------------
@@ -24,4 +24,4 @@ New (Column W, row 1):
 
 Concatenate String (Column X, row 1):
 -------------
-`=IF(AND(ISBLANK(A1),(ISBLANK(D1))),"<heading aid:pstyle="program heading">"&C1&"</heading>"&CHAR(13),IF(AND(ISBLANK(C1),(ISBLANK(D1))),"<"&LEFT(A1,2)&"><offering aid:pstyle="times">"&S1&", "&T1&", "&U1&", "&K1&"" &CHAR(13)&IF(OR(L1="Lower Level",L1="Webinar"),L1,"RM "&L1)&", "&M1&", "&N1&CHAR(13)&"<fees aid:pstyle="fees">Fees: Course: "&IF(OR(O1="FREE",O1="Waived"),O1,DOLLAR(O1,0))&""&V1&"</fees></offering></"&LEFT(A1,2)&">",IF(AND(E1<>""),E1,"<"&LEFT(A1,2)&"><title aid:pstyle="course name">"&C1&"</title>"&W1&"<description aid:pstyle="description">"&D1&"</description><offering aid:pstyle="times">"&S1&", "&T1&", "&U1&", "&K1&"" &CHAR(13)&IF(OR(L1="Lower Level",L1="Webinar"),L1,"RM "&L1)&", "&M1&", "&N1&CHAR(13)&"<fees aid:pstyle="fees">Fees: Course: "&IF(OR(O1="FREE",O1="Waived"),O1,DOLLAR(O1,0))&""&V1&"</fees></offering></"&LEFT(A1,2)&">")))`
+`=IF(AND(ISBLANK(A1),(ISBLANK(D1))),"<heading aid:pstyle=""program heading"">"&C1&"</heading>"&CHAR(13),IF(AND(ISBLANK(C1),(ISBLANK(D1))),"<"&LEFT(A1,2)&"><offering aid:pstyle=""times"">"&S1&", "&T1&", "&U1&", "&K1&"" &CHAR(13)&IF(OR(L1="Lower Level",L1="Webinar"),L1,"RM "&L1)&", "&M1&", "&N1&CHAR(13)&"<fees aid:pstyle="fees">Fees: Course: "&IF(OR(O1="FREE",O1="Waived"),O1,DOLLAR(O1,0))&""&V1&"</fees></offering></"&LEFT(A1,2)&">",IF(AND(E1<>""),E1,"<"&LEFT(A1,2)&"><title aid:pstyle=""course name"">"&C1&"</title>"&W1&"<description aid:pstyle=""description"">"&D1&"</description><offering aid:pstyle=""times"">"&S1&", "&T1&", "&U1&", "&K1&"" &CHAR(13)&IF(OR(L1="Lower Level",L1="Webinar"),L1,"RM "&L1)&", "&M1&", "&N1&CHAR(13)&"<fees aid:pstyle=""fees"">Fees: Course: "&IF(OR(O1="FREE",O1="Waived"),O1,DOLLAR(O1,0))&""&V1&"</fees></offering></"&LEFT(A1,2)&">")))`
