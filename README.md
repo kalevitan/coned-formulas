@@ -1,4 +1,6 @@
 Excel Formulas
-==============
+=============
 
-These Excel formulas generate xml tags for A-B Tech publications.  They should be copied and pasted in the appropriate column.
+These formulas generate XML tags for the A-B Tech Continuing Education schedule. They should be added to the defined column or row.
+
+Only the values from column 'X' should be saved as an XML document. Use the [ruby script](/tree/master/RegularExpressionScript) to cleanup the output.
