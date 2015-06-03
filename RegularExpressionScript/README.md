@@ -1,7 +1,7 @@
 Ruby Find & Replace Script
 ==============
 
-Change the "file_name" in the .rb document to point to the current file.
->_i.e. /path/to/my/xmlfile.xml_
+Open the .rb file and change the "file_name" variable to the current file name. If the file is not placed within this directory, include the full path to the xml file.
+>_i.e. file_name = "/path/to/my/xmlfile.xml"_
 
-Save the file and run: `ruby coned-findRepalce.rb`
+Save the file and from this directory, type `ruby coned-findReplace.rb` and press enter.
